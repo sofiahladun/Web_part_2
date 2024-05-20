@@ -1,0 +1,47 @@
+.shadow-col{
+    box-shadow: -5px 10px 10px #e3f6fc, 5px 0px 10px #e3f6fc;
+  }
+
+.big-col-1{
+    background-color: #ffffff;
+    margin-left: 3%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.header-block-text{ //
+    color: #53c5e9;
+}
+
+.custom-btn {
+    margin-left: 65%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 30px; /* Заокруглені кути */
+    color: #b5bfcd;
+    background-color: #ffffff;
+    border: 3px solid #a9e2f4;
+    transition: all 0.3s; /* Додає анімацію для зміни кольорів */
+  }
+
+  .custom-btn:hover {
+    background-color: #a9e2f4;
+    color: #53c5e9;
+    border-color: #a9e2f4;
+  }
+
+  .custom-btn:active {
+    background-color: #fafbfc;
+    color: #a9e2f4;
+    border-color: #a9e2f4;
+  }
+
+  .big-col-2{
+    background-color: #ffffff;
+    margin-left: 1%;
+    margin-right: 3%;
+  }

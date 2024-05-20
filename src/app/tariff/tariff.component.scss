@@ -1,0 +1,35 @@
+.small-cols{
+    background-color: #ffffff;
+    width: 340px;
+    height: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.shadow-col{
+    box-shadow: -5px 10px 10px #e3f6fc, 5px 0px 10px #e3f6fc;
+}
+
+.header-text-row-2{
+    color: #53c5e9;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+
+.custom-border {
+    border-right: 2px solid #b5bfcd;
+  }
+
+  .progress{
+    height: 5px;
+    width: 90%;
+    margin-top: -10px;
+    margin-left: -5px;
+  }
+
+  .progress-bar{
+    width: 45%;
+    background: linear-gradient(to right, #56c7e3, #9de7da);
+  }
+

@@ -1,0 +1,354 @@
+body{
+    background-color: #fafbfc;
+}
+
+.fit{ //
+  margin-top: -0.5%;
+}
+
+.navbar-text{ //
+    color: #b5bfcd;
+}
+
+.main-text-size{ //
+    font-size: 3.5rem;
+}
+
+.big-col-1{
+  background-color: #ffffff;
+  margin-left: 3%;
+  margin-right: 1%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.big-col-2{
+  background-color: #ffffff;
+  margin-left: 1%;
+  margin-right: 3%;
+}
+
+.header-block-text{ //
+    color: #53c5e9;
+    // margin-left: 6.5%;
+    // margin-top: 4%;
+}
+
+.custom-btn { //
+    margin-left: 65%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 30px; /* Заокруглені кути */
+    color: #b5bfcd;
+    background-color: #ffffff;
+    border: 3px solid #a9e2f4;
+    transition: all 0.3s; /* Додає анімацію для зміни кольорів */
+  }
+
+  .custom-btn:hover {
+    background-color: #a9e2f4;
+    color: #53c5e9;
+    border-color: #a9e2f4;
+  }
+
+  .custom-btn:active {
+    background-color: #fafbfc;
+    color: #a9e2f4;
+    border-color: #a9e2f4;
+  }
+
+  .header-text-row-2{
+    color: #53c5e9;
+    margin-left: 55px;
+    margin-top: 25px;
+  }
+
+  .small-cols{
+    background-color: #ffffff;
+    width: 340px;
+    height: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .shadow-col{
+    box-shadow: -5px 10px 10px #e3f6fc, 5px 0px 10px #e3f6fc;
+  }
+
+  .other-btn{
+    margin-left: 290px;
+    margin-top: -73px;
+  }
+
+  .progress{
+    height: 5px;
+    width: 90%;
+    margin-top: -10px;
+    margin-left: -5px;
+  }
+
+  .progress-bar{
+    width: 45%;
+    background: linear-gradient(to right, #56c7e3, #9de7da);
+  }
+
+  .custom-border {
+    border-right: 2px solid #b5bfcd;
+  }
+
+  // .circle-progress-bar {
+  //   width: 100px;
+  //   height: 100px;
+  //   border-radius: 50%;
+  //   margin-left: 10px;
+  //   background: 
+  //     radial-gradient(closest-side, white 79%, transparent 80% 100%),
+  //     conic-gradient(hotpink 75%, pink 0);    
+  // }
+
+  .circle-progress-bar {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background:
+      // linear-gradient(to right, #56c7e3, #9de7da),
+      radial-gradient(closest-side, #ffffff 80%, transparent 80% 100%),
+      conic-gradient(hotpink 75%, pink 0);
+    border: 5px solid #b5bfcd; /* Замініть #yourBorderColor на кольор рамки */
+    overflow: hidden;
+  
+    &::before {
+      content: "75 days";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+      color: #78849a;
+    }
+  }
+
+  .slidecontainer {
+    width: 90px; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    width: 90px; /* Full-width */
+    height: 20px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer;
+  }
+
+  .slidecontainer{
+    width: 100%;
+    margin-top: 25px;
+
+  }
+
+  .slider{
+    width: 100%;
+    background: (to right, #56c7e3, #9de7da);
+  }
+
+//   .gradient{
+//     background: linear-gradient(to right, #53c6e3, #49cdb7);
+//   }
+
+//   .slider {
+//     background: linear-gradient(to right, #53c6e3, #49cdb7);
+
+//     // -webkit-appearance: none;
+//     // width: 100%;
+//     // height: 10px;
+//     // border-radius: 5px;
+//     // background: linear-gradient(to right, #53c6e3, #49cdb7);
+//     // outline: none;
+//     // opacity: 0.7;
+//     // -webkit-transition: .2s;
+//     // transition: opacity .2s;
+// }
+
+// .slider:hover {
+//     opacity: 1;
+// }
+
+// <Toggle switch>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 53px;
+  height: 25px;
+}
+
+.myslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.myslider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  top:3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .myslider {
+  background: linear-gradient(to right, #53c6e3, #49cdb7);
+}
+
+
+input:checked + .myslider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.myslider.round {
+  border-radius: 34px;
+}
+
+.myslider.round:before {
+  border-radius: 50%;
+}
+// </Toggle switch>
+
+.custom-btn-small {
+  // margin-left: 65%;
+  // margin-top: 5px;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 25px;
+  border-radius: 30px; /* Заокруглені кути */
+  color: #b5bfcd;
+  background-color: #ffffff;
+  border: 3px solid #a9e2f4;
+  transition: all 0.3s; /* Додає анімацію для зміни кольорів */
+}
+
+//<Circle following progress bar>
+.circle-progress{
+  position: relative;
+  margin: 4px;
+  // float:left;
+  text-align: center;
+}
+.barOverflow{ /* Wraps the rotating .bar */
+  position: relative;
+  overflow: hidden; /* Comment this line to understand the trick */
+  width: 90px; height: 45px; /* Half circle (overflow) */
+  // margin-bottom: -14px; /* bring the numbers up */
+  margin-left: 30%;
+}
+.bar{
+  position: absolute;
+  top: 0; left: 0;
+  width: 90px; height: 90px; /* full circle! */
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 5px solid #eee;     /* half gray, */
+  border-bottom-color: #0bf;  /* half azure */
+  border-right-color: rgb(8, 28, 35);
+
+}
+//</Circle following progress bar>
+
+.arrow-message-button{ //Message
+    width: 30px;
+    height: 30px; 
+    margin-top: -50px; 
+    margin-left: 260px;
+}
+
+.message-text-bold-1{ //Message
+    font-size: 1rem;
+    color: #78859a;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.message-text-bold-2{ //Message
+    font-size: 0.9rem;
+    color: #b5bfcd;
+    font-weight: 600;
+}
+
+.message-text-bold-3{ //Message
+    font-size: 0.9rem;
+    color: #b5bfcd;
+    margin-top: -20px;
+}
+
+.message-block{ //Message
+    background-color: #ffffff;
+    width: 240px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+.semi-title{ //Tarrif & Account
+    font-size: 1rem;
+    color: #78849a;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.small-cols-main-icon{ //small cols
+    margin-top: -82px;
+    margin-left: 15px;
+}
+
+.progress-bar-tariff{ //Tariff
+    width: 160px;
+    height: 145px;
+    margin-left: 24%;
+}
